@@ -130,6 +130,11 @@ IP real resuelta: 50.62.180.243  ← invertida
 
 ---
 
+![QR Malicioso](Image_001.png)
+> *Mensaje recibido por la víctima con un QR un tanto sospechoso.*
+
+---
+
 ## Stage 1 — Filtro OS (anti-bot)
 
 **Endpoint:** `/img/`
@@ -226,7 +231,7 @@ function doCheck(requestId) {
 
 Quienes no superan el filtro (investigadores, bots, sandboxes móviles) ven la página señuelo `vendas.html`: una web corporativa completa de **"BIGMAX Marketing & Tech"** — agencia de marketing B2B falsa, en portugués brasileño, con soporte para 8 idiomas (PT, ES, EN, DE, IT, TR, FR, NL).
 
-![BIGMAX señuelo capturado en Any.run](https://github.com/x0n3e/Phising_Report/edit/main/Image_002.png)
+![BIGMAX señuelo capturado en Any.run](Image_000.png)
 > *Captura de la página señuelo tal como aparece en el sandbox Any.run*
 
 La página actúa como mecanismo de **evasión operativa**: evita la entrega del payload a usuarios no deseados y dificulta la detección temprana por soluciones de seguridad. Solo los clientes que superan la verificación de FingerprintJS continúan hacia las fases posteriores.
@@ -270,7 +275,8 @@ Cada víctima recibe un hash diferente → imposible correlacionar en VirusTotal
 </html>
 ```
 
-![Pantalla de descarga HTA en Any.run](https://i.imgur.com/placeholder_hta.png)
+![Pantalla de descarga HTA en Any.run](Image_002.png)
+![Pantalla de descarga HTA en Any.run](Image_003.png)
 > *Pantalla de "Security verification" que ve la víctima mientras se descarga el ZIP*
 
 ---
