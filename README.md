@@ -130,7 +130,7 @@ IP real resuelta: 50.62.180.243  ← invertida
 
 ---
 
-![QR Malicioso](Image_001.png)
+![QR Malicioso](Image_001.jpeg)
 > *Mensaje recibido por la víctima con un QR un tanto sospechoso.*
 
 ---
